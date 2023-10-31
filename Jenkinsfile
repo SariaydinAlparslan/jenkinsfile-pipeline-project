@@ -4,13 +4,12 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Compiling the java source code'
-                sh 'javac Hello.java'
+                echo 'naber alp'
             }
         }
         stage('run') {
             steps {
                 echo 'Running the compiled java code.'
-                sh 'java Hello'
             }
         }
     }
