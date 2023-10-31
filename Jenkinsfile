@@ -10,6 +10,7 @@ pipeline {
         stage('run') {
             steps {
                 echo 'Running the compiled java code.'
+                echo 'naber alp'
             }
         }
     }
