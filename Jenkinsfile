@@ -4,15 +4,11 @@ pipeline {
         stage('build') {
             steps {
                 echo 'Compiling the java source code'
-                echo 'alp baner'
-                echo 'naber alp'
             }
         }
         stage('run') {
             steps {
                 echo 'Running the compiled java code.'
-                echo 'alp baner'
-                echo 'naber alp'
             }
         }
     }
